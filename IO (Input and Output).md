@@ -41,30 +41,30 @@ In this analogy, you are texting the computer, not another person.
 
 ### Get input
 
-	std::cin >> n;
+`std::cin >> n;`
 	
-	 std:: - We must preface the cin (console in) function with std:: because cin is in the standard library 
-	 Note: THIS IS NOT REQUIRED IF YOU USE using namespace std;
+std:: - We must preface the cin (console in) function with std:: because cin is in the standard library 
+_Note: THIS IS NOT REQUIRED IF YOU USE using namespace std;_
 	
-	 cin - Tells the program to wait until we get input from the console
+**cin** - Tells the program to wait until we get input from the console
 	
-	 >> - Tells the program to take what the user entered into the console and put it into the variable on the right
+**>>** - Tells the program to take what the user entered into the console and put it into the variable on the right
 	
-	 n - Any variable that will accept/become the input entered by the user (Does not need to be named n)
+**n** - Any variable that will accept/become the input entered by the user (Does not need to be named n)
 	
 
 ### Send output
 
-	std::cout << n;
+`std::cout << n;`
 	
-	 std:: - We must preface the cout (console out) function with std:: because cout is in the Standerd library 
-	 Note: THIS IS NOT REQUIRED IF YOU USE using namespace std;
+std:: - We must preface the cout (console out) function with std:: because cout is in the Standerd library 
+_Note: THIS IS NOT REQUIRED IF YOU USE using namespace std;_
 	
-	 cout - Tells the program we want to print (display text) to the console
+**cout** - Tells the program we want to print (display text) to the console
 	
-	 << - Tells the program where to get the info we want to display from
+**<<** - Tells the program where to get the info we want to display from
 	
-	 n - Any variable or constant (such as a string of text) that we want to display
+**n** - Any variable or constant (such as a string of text) that we want to display
 
 ## Basic Program
 
